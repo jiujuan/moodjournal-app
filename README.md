@@ -127,7 +127,7 @@ MoodJournal-app/
 
 1. **克隆项目**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/jiujuan/moodjournal-app.git
    cd MoodJournal-app
    ```
 
