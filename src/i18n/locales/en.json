@@ -1,0 +1,282 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "error": "An error occurred",
+    "success": "Success",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "navigation": {
+    "home": "Home",
+    "trends": "Trends",
+    "history": "History",
+    "manage": "Manage",
+    "settings": "Settings"
+  },
+  "homepage": {
+    "title": "Mood Journal",
+    "welcome": "Welcome to your mood journal",
+    "quickEntry": "Quick Entry",
+    "todaysSummary": "Today's Summary",
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "successMessage": "Your mood has been logged successfully!",
+    "howFeeling": "How are you feeling right now?",
+    "addNote": "Add a note (optional)",
+    "notePlaceholder": "What's on your mind?",
+    "saving": "Saving...",
+    "logMood": "Log My Mood",
+    "todaySummary": "Today's Summary",
+    "noEntries": "No entries yet today. Start by logging your mood above!",
+    "entriesCount_one": "entry today",
+    "entriesCount_other": "entries today",
+    "viewTrends": "View Trends",
+    "moodTrendsTitle": "Mood Trends Over Time (Last 30 Days)",
+    "loadingTrends": "Loading mood trends...",
+    "noTrendData": "No mood trend data available",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {{page}}"
+    }
+  },
+  "trends": {
+    "title": "Mood Trends & Analytics",
+    "subtitle": "Discover patterns and insights in your emotional journey",
+    "loading": "Loading your trends...",
+    "noData": "No data available for trends analysis.",
+    "periods": {
+      "week": "Last 7 days",
+      "month": "Last 30 days",
+      "year": "Last 12 months"
+    },
+    "stats": {
+      "currentStreak": "Current Streak",
+      "daysInRow": "Days in a row",
+      "longestStreak": "Longest Streak",
+      "personalBest": "Personal best",
+      "totalEntries": "Total Entries",
+      "allTime": "All time"
+    },
+    "chartOptions": "Chart Options",
+    "charts": {
+      "moodTrends": "Mood Trends",
+      "emotions": "Emotions",
+      "dailyEmotions": "Daily Emotions",
+      "dailyPie": "Daily Pie",
+      "wordCloud": "Word Cloud",
+      "moodTrendsTitle": "Mood Trends Over Time",
+      "dailyEmotionDistribution": "Daily Emotion Distribution",
+      "dailyEmotionBreakdown": "Daily Emotion Breakdown",
+      "wordCloudTitle": "Most Frequent Words in Your Notes"
+    },
+    "noMoodData": "No mood data available for the selected period.",
+    "noWordData": "No word data available. Start adding notes to your mood entries!",
+     "times": "times"
+   },
+   "settings": {
+     "title": "Settings & Preferences",
+     "subtitle": "Customize your mood journal experience",
+     "loading": "Loading settings...",
+     "saving": "Saving...",
+     "saveSettings": "Save Settings",
+     "tabs": {
+       "general": "General",
+       "notifications": "Notifications",
+       "appearance": "Appearance",
+       "data": "Data & Privacy"
+     },
+     "general": {
+       "title": "General Settings",
+       "autoBackup": "Auto Backup",
+       "autoBackupDesc": "Automatically backup your data daily",
+       "dataRetention": "Data Retention",
+       "dataRetentionDesc": "How long to keep your mood entries (in days)"
+     },
+     "notifications": {
+       "title": "Notification Settings",
+       "enable": "Enable Notifications",
+       "enableDesc": "Receive daily reminders to log your mood",
+       "reminderTime": "Reminder Time",
+       "reminderDays": "Reminder Days"
+     },
+     "appearance": {
+       "title": "Appearance Settings",
+       "darkMode": "Dark Mode",
+       "darkModeDesc": "Switch to dark theme",
+       "colorTheme": "Color Theme"
+     },
+     "data": {
+       "title": "Data & Privacy",
+       "exportFormat": "Export Format",
+       "exportData": "Export Data",
+       "exporting": "Exporting...",
+       "importData": "Import Data",
+       "importing": "Importing...",
+       "dangerZone": "Danger Zone",
+       "dangerZoneDesc": "These actions cannot be undone. Please proceed with caution.",
+       "clearAllData": "Clear All Data",
+       "confirmClearData": "Are you sure you want to delete all your mood entries? This action cannot be undone."
+     }
+   },
+   "entryDetail": {
+     "backToHistory": "Back to History",
+     "edit": "Edit",
+     "delete": "Delete",
+     "deleting": "Deleting...",
+     "save": "Save",
+     "saving": "Saving...",
+     "cancel": "Cancel",
+     "moodLevel": "Mood Level",
+     "emotions": "Emotions",
+     "primaryEmotion": "Primary Emotion",
+     "notes": "Notes",
+     "tags": "Tags",
+     "tagsPlaceholder": "Enter tags separated by commas",
+     "mediaFiles": "Media Files",
+     "deleteFile": "Delete file",
+     "loading": "Loading entry...",
+     "notFound": "Entry not found"
+  },
+  "dateSelector": {
+    "selectDate": "Select Date",
+    "previousDay": "Previous day",
+    "nextDay": "Next day",
+    "orSelectSpecific": "Or select a specific date:",
+    "quickSelect": "Quick select:",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "threeDaysAgo": "3 days ago",
+    "oneWeekAgo": "1 week ago",
+    "availableDateRange": "Available date range:",
+    "to": "to"
+  },
+  "dailyEmotionPieChart": {
+     "title": "Daily Emotion Distribution",
+     "count": "Count",
+     "percentage": "Percentage",
+     "loading": "Loading emotion data...",
+     "noData": "No emotion data available for {{date}}",
+     "tryDifferentDate": "Try selecting a different date or add some mood entries.",
+     "totalEntries": "Total entries",
+     "detailedStatistics": "Detailed Statistics"
+   },
+  "dailyEmotionChart": {
+    "total": "Total",
+    "noData": "No emotion data available"
+  },
+  "emotionPieChart": {
+    "title": "Emotion Distribution",
+    "count": "Count",
+    "percentage": "Percentage",
+    "noData": "No emotion data available",
+    "totalEntries": "Total entries",
+    "entries": "entries"
+  },
+  "common": {
+     "empty": "Empty"
+   },
+  "history": {
+    "title": "Mood History",
+    "subtitle": "Explore your emotional journey over time",
+    "days": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    },
+    "filters": "Filters",
+    "searchPlaceholder": "Search notes...",
+    "filterByEmotion": "Filter by emotion",
+    "allEmotions": "All emotions",
+    "showingEntriesFor": "Showing entries for",
+    "clearDateFilter": "Clear date filter",
+    "entries": "Entries",
+    "loading": "Loading...",
+    "noEntries": "No entries found for the selected criteria."
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your experience",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications",
+    "dataExport": "Data Export",
+    "exportData": "Export Data",
+    "importData": "Import Data",
+    "clearAllData": "Clear All Data",
+    "confirmClearData": "Are you sure you want to clear all data? This action cannot be undone."
+  },
+  "moods": {
+    "happy": "Happy",
+    "sad": "Sad",
+    "angry": "Angry",
+    "anxious": "Anxious",
+    "excited": "Excited",
+    "calm": "Calm",
+    "frustrated": "Frustrated",
+    "content": "Content",
+    "lonely": "Lonely",
+    "grateful": "Grateful",
+    "stressed": "Stressed",
+    "peaceful": "Peaceful"
+  },
+  "charts": {
+    "dailyEmotionPie": "Daily Emotion Pie Chart",
+    "weeklyMoodTrend": "Weekly Mood Trend",
+    "monthlyMoodTrend": "Monthly Mood Trend",
+    "emotionFrequency": "Emotion Frequency Chart",
+    "noEmotionData": "No emotion data for {{date}}",
+    "selectDate": "Select Date",
+    "emotionDistribution": "Emotion Distribution"
+  },
+  "manage": {
+    "title": "Manage Mood Entries",
+    "subtitle": "Edit and delete your mood entries",
+    "loading": "Loading...",
+    "searchPlaceholder": "Search mood entries...",
+    "allEmotions": "All Emotions",
+    "emotion": "Emotion",
+    "date": "Date",
+    "notes": "Notes",
+    "notesPlaceholder": "Add notes...",
+    "noEntries": "No mood entries",
+    "noEntriesDesc": "You don't have any mood entries yet. Go to the homepage to add some!",
+    "summary": "Summary",
+    "totalEntries": "{{count}} entries total",
+    "pagination": {
+      "page": "Page {{current}} of {{total}}",
+      "showing": "Showing {{start}} - {{end}} of {{total}} entries",
+      "previous": "Previous",
+      "next": "Next",
+      "first": "First",
+      "last": "Last"
+    }
+  },
+  "emotions": {
+    "happy": "Happy",
+    "sad": "Sad",
+    "anxious": "Anxious",
+    "calm": "Calm",
+    "excited": "Excited",
+    "stressed": "Stressed",
+    "peaceful": "Peaceful",
+    "frustrated": "Frustrated",
+    "content": "Content",
+    "overwhelmed": "Overwhelmed"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "add": "添加",
+    "search": "搜索",
+    "filter": "筛选",
+    "loading": "加载中...",
+    "noData": "暂无数据",
+    "error": "发生错误",
+    "success": "成功",
+    "confirm": "确认",
+    "close": "关闭"
+  },
+  "navigation": {
+    "home": "首页",
+    "trends": "趋势",
+    "history": "历史",
+    "manage": "管理",
+    "settings": "设置"
+  },
+  "homepage": {
+    "title": "心情日记",
+    "welcome": "欢迎使用心情日记",
+    "quickEntry": "快速记录",
+    "todaysSummary": "今日总结",
+    "greeting": {
+      "morning": "早上好",
+      "afternoon": "下午好",
+      "evening": "晚上好"
+    },
+    "successMessage": "您的心情已成功记录！",
+    "howFeeling": "您现在感觉如何？",
+    "addNote": "添加备注（可选）",
+    "notePlaceholder": "您在想什么？",
+    "saving": "保存中...",
+    "logMood": "记录心情",
+    "todaySummary": "今日总结",
+    "noEntries": "今天还没有记录。请在上方记录您的心情！",
+    "entriesCount_one": "条记录",
+    "entriesCount_other": "条记录",
+    "viewTrends": "查看趋势",
+    "moodTrendsTitle": "心情趋势图（最近30天）",
+    "loadingTrends": "正在加载心情趋势...",
+    "noTrendData": "暂无心情趋势数据",
+    "pagination": {
+      "previous": "上一页",
+      "next": "下一页",
+      "page": "第{{page}}页"
+    }
+  },
+  "trends": {
+    "title": "情绪趋势与分析",
+    "subtitle": "发现您情绪旅程中的模式和洞察",
+    "loading": "正在加载您的趋势...",
+    "noData": "暂无趋势分析数据。",
+    "periods": {
+      "week": "最近7天",
+      "month": "最近30天",
+      "year": "最近12个月"
+    },
+    "stats": {
+      "currentStreak": "当前连续记录",
+      "daysInRow": "连续天数",
+      "longestStreak": "最长连续记录",
+      "personalBest": "个人最佳",
+      "totalEntries": "总记录数",
+      "allTime": "历史总计"
+    },
+    "chartOptions": "图表选项",
+    "charts": {
+      "moodTrends": "情绪趋势",
+      "emotions": "情绪分布",
+      "dailyEmotions": "每日情绪",
+      "dailyPie": "每日饼图",
+      "wordCloud": "词云",
+      "moodTrendsTitle": "情绪趋势变化",
+      "dailyEmotionDistribution": "每日情绪分布",
+      "dailyEmotionBreakdown": "每日情绪细分",
+      "wordCloudTitle": "笔记中最常用的词汇"
+    },
+    "noMoodData": "所选时间段内暂无情绪数据。",
+    "noWordData": "暂无词汇数据。开始在心情记录中添加笔记吧！",
+     "times": "次"
+   },
+   "settings": {
+     "title": "设置与偏好",
+     "subtitle": "自定义您的心情日记体验",
+     "loading": "加载设置中...",
+     "saving": "保存中...",
+     "saveSettings": "保存设置",
+     "tabs": {
+       "general": "常规",
+       "notifications": "通知",
+       "appearance": "外观",
+       "data": "数据与隐私"
+     },
+     "general": {
+       "title": "常规设置",
+       "autoBackup": "自动备份",
+       "autoBackupDesc": "每日自动备份您的数据",
+       "dataRetention": "数据保留",
+       "dataRetentionDesc": "保留心情记录的天数"
+     },
+     "notifications": {
+       "title": "通知设置",
+       "enable": "启用通知",
+       "enableDesc": "接收每日心情记录提醒",
+       "reminderTime": "提醒时间",
+       "reminderDays": "提醒日期"
+     },
+     "appearance": {
+       "title": "外观设置",
+       "darkMode": "深色模式",
+       "darkModeDesc": "切换到深色主题",
+       "colorTheme": "颜色主题"
+     },
+     "data": {
+      "title": "数据与隐私",
+      "exportFormat": "导出格式",
+      "exporting": "导出中...",
+      "exportData": "导出数据",
+      "importing": "导入中...",
+      "importData": "导入数据",
+      "dangerZone": "危险区域",
+      "dangerZoneDesc": "这些操作无法撤销，请谨慎操作。",
+      "clearAllData": "清除所有数据",
+      "confirmClearData": "您确定要删除所有心情记录吗？此操作无法撤销。"
+    }
+  },
+  "entryDetail": {
+    "backToHistory": "返回历史记录",
+    "edit": "编辑",
+    "delete": "删除",
+    "deleting": "删除中...",
+    "save": "保存",
+    "saving": "保存中...",
+    "cancel": "取消",
+    "moodLevel": "心情等级",
+    "emotions": "情绪",
+    "primaryEmotion": "主要情绪",
+    "notes": "笔记",
+    "tags": "标签",
+    "tagsPlaceholder": "输入标签，用逗号分隔",
+    "mediaFiles": "媒体文件",
+    "deleteFile": "删除文件",
+    "loading": "加载中...",
+    "notFound": "未找到记录"
+  },
+  "dateSelector": {
+    "selectDate": "选择日期",
+    "previousDay": "前一天",
+    "nextDay": "后一天",
+    "orSelectSpecific": "或选择特定日期：",
+    "quickSelect": "快速选择：",
+    "today": "今天",
+    "yesterday": "昨天",
+    "threeDaysAgo": "3天前",
+    "oneWeekAgo": "1周前",
+    "availableDateRange": "可用日期范围：",
+    "to": "至"
+  },
+  "dailyEmotionPieChart": {
+     "title": "每日情绪分布",
+     "count": "数量",
+     "percentage": "百分比",
+     "loading": "正在加载情绪数据...",
+     "noData": "{{date}} 没有可用的情绪数据",
+     "tryDifferentDate": "请尝试选择其他日期或添加一些心情记录。",
+     "totalEntries": "总条目数",
+     "detailedStatistics": "详细统计"
+   },
+  "dailyEmotionChart": {
+    "total": "总计",
+    "noData": "没有可用的情绪数据"
+  },
+  "emotionPieChart": {
+     "title": "情绪分布",
+     "count": "数量",
+     "percentage": "百分比",
+     "noData": "没有可用的情绪数据",
+     "totalEntries": "总条目数",
+     "entries": "条目"
+   },
+   "common": {
+     "empty": "空"
+   },
+  "history": {
+    "title": "心情历史",
+    "subtitle": "探索您的情感历程",
+    "days": {
+      "sun": "周日",
+      "mon": "周一",
+      "tue": "周二",
+      "wed": "周三",
+      "thu": "周四",
+      "fri": "周五",
+      "sat": "周六"
+    },
+    "filters": "筛选器",
+    "searchPlaceholder": "搜索笔记...",
+    "filterByEmotion": "按情绪筛选",
+    "allEmotions": "所有情绪",
+    "showingEntriesFor": "显示以下日期的记录：",
+    "clearDateFilter": "清除日期筛选",
+    "entries": "记录",
+    "loading": "加载中...",
+    "noEntries": "未找到符合所选条件的记录。"
+  },
+  "settings": {
+    "title": "设置",
+    "subtitle": "自定义你的体验",
+    "language": "语言",
+    "theme": "主题",
+    "notifications": "通知",
+    "dataExport": "数据导出",
+    "exportData": "导出数据",
+    "importData": "导入数据",
+    "clearAllData": "清除所有数据",
+    "confirmClearData": "确定要清除所有数据吗？此操作无法撤销。"
+  },
+  "moods": {
+    "happy": "开心",
+    "sad": "难过",
+    "angry": "愤怒",
+    "anxious": "焦虑",
+    "excited": "兴奋",
+    "calm": "平静",
+    "frustrated": "沮丧",
+    "content": "满足",
+    "lonely": "孤独",
+    "grateful": "感激",
+    "stressed": "压力",
+    "peaceful": "安详"
+  },
+  "charts": {
+    "dailyEmotionPie": "每日情绪饼图",
+    "weeklyMoodTrend": "每周心情趋势",
+    "monthlyMoodTrend": "每月心情趋势",
+    "emotionFrequency": "情绪频率图",
+    "noEmotionData": "{{date}} 暂无情绪数据",
+    "selectDate": "选择日期",
+    "emotionDistribution": "情绪分布"
+  },
+  "manage": {
+    "title": "管理心情记录",
+    "subtitle": "编辑和删除您的心情记录",
+    "loading": "加载中...",
+    "searchPlaceholder": "搜索心情记录...",
+    "allEmotions": "所有情绪",
+    "emotion": "情绪",
+    "date": "日期",
+    "notes": "备注",
+    "notesPlaceholder": "添加备注...",
+    "noEntries": "暂无心情记录",
+    "noEntriesDesc": "您还没有任何心情记录，去首页添加一些吧！",
+    "summary": "统计信息",
+    "totalEntries": "共 {{count}} 条记录",
+    "pagination": {
+      "page": "第 {{current}} 页，共 {{total}} 页",
+      "showing": "显示第 {{start}} - {{end}} 条，共 {{total}} 条记录",
+      "previous": "上一页",
+      "next": "下一页",
+      "first": "首页",
+      "last": "末页"
+    }
+  },
+  "emotions": {
+    "happy": "开心",
+    "sad": "难过",
+    "anxious": "焦虑",
+    "calm": "平静",
+    "excited": "兴奋",
+    "stressed": "压力",
+    "peaceful": "安详",
+    "frustrated": "沮丧",
+    "content": "满足",
+    "overwhelmed": "不知所措"
+  }
+}

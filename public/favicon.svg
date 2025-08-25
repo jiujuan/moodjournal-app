@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <!-- 背景渐变 -->
+  <defs>
+    <linearGradient id="heartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f43f5e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pulseGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 圆角背景 -->
+  <rect width="32" height="32" rx="8" fill="url(#heartGradient)" />
+  
+  <!-- 心形图标 -->
+  <path d="M16 26c0 0-8-4.5-8-11 0-3.5 2.5-6 6-6 1.5 0 2.8 0.6 3.8 1.5C18.8 9.6 20.1 9 21.6 9c3.5 0 6 2.5 6 6 0 6.5-8 11-8 11z" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="1.5" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        opacity="0.3" />
+  
+  <!-- 心电图曲线 -->
+  <g transform="translate(6, 16)">
+    <path d="M0 0 L3 0 L4 -6 L5 8 L6 -4 L7 0 L20 0" 
+          fill="none" 
+          stroke="url(#pulseGradient)" 
+          stroke-width="2" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+    
+    <!-- 心电图点 -->
+    <circle cx="4" cy="-6" r="1" fill="white" opacity="0.8" />
+    <circle cx="5" cy="8" r="1" fill="white" opacity="0.8" />
+    <circle cx="6" cy="-4" r="1" fill="white" opacity="0.8" />
+  </g>
+  
+  <!-- 小心形装饰 -->
+  <path d="M24 8c0 0-2-1-2-2.5 0-1 0.7-1.5 1.5-1.5 0.4 0 0.7 0.1 1 0.4 0.3-0.3 0.6-0.4 1-0.4 0.8 0 1.5 0.5 1.5 1.5 0 1.5-2 2.5-2 2.5z" 
+        fill="white" 
+        opacity="0.6" />
+</svg>
